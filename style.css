@@ -2,10 +2,10 @@ body {
       font-family: 'Courier New', Courier, monospace;
       text-align: center;
       background: #e792ff;
-      padding: 25%;
+      padding: 170px;
     }
     button {
-      padding:5%;
+      padding: 15px 20px;
       font-size: 16px;
       font-family: 'Courier New', Courier, monospace;
       background-color:rgb(119, 139, 236);
@@ -17,5 +17,6 @@ body {
     font-style:normal; font-family:cursive; font-size: small; color: #c4589b;
     
 }
-@media screen {max-width: 767px
+@media (max-widht:800px) {
+    
 }
