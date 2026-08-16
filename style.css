@@ -1,0 +1,19 @@
+body {
+      font-family: 'Courier New', Courier, monospace;
+      text-align: center;
+      background: #e792ff;
+      padding: 170px;
+    }
+    button {
+      padding: 15px 20px;
+      font-size: 16px;
+      font-family: 'Courier New', Courier, monospace;
+      background-color:rgb(119, 139, 236);
+      outline-color:hsl(235, 100%, 76%);
+      color:#0011ff;
+      border-radius: 50px;}
+#textoOculto {
+    text-align: center;
+    font-style:normal; font-family:cursive; font-size: small; color: #c4589b;
+    
+}
