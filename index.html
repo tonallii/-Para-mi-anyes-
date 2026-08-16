@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="style.css" rel="stylesheet"/>
+  <meta charset="UTF-8">
+  <title> ♡ ✶Para mi anyes✶ ♡</title>
+</head>
+<body>
+  <h1>♡ ⚘ Anyesito ♡ ⚘ </h1>
+  <p> este rinconcito es para ti <br> visítalo cada que quieras recordar que te amo muchop ฅ(ﾐⓛᆽⓛﾐ)ฅ</p>
+
+
+<button onclick="mostrarOcultarTexto()" class="button">oye...¿quieres un besito?</button>
+
+<p id="textoOculto" style="display:none;">Muaaaaaaaaaaaaaaaak<br>(๑•́ ₃ •̀๑)</p>
+
+
+</body>
+
+<script>
+  function mostrarOcultarTexto() {
+      var texto = document.getElementById("textoOculto");
+      if (texto.style.display === "none") {
+          texto.style.display = "block";
+      } else {
+          texto.style.display = "none";
+      }
+  }
+  </script>
+</body>
+</html>
